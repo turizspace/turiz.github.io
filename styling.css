@@ -1,0 +1,103 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Tahoma, sans-serif;
+    background-image: url('https://seeded-session-images.scdn.co/v1/img/artist/0JqHMfB76L6sUOT91hgrOQ/en');
+   background-size: cover; /* Adjust to cover the entire viewport */
+   background-repeat: no-repeat; /* Prevent the image from repeating */
+   background-attachment: fixed;
+}
+
+/* Header styles */
+header {
+    background-color: #7f589c;
+    color: #222;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+  flex: 1;
+  text-align: center;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #b9ecff;
+}
+
+.videos-container{
+            width: auto; /* Set your desired fixed width for the container */
+            height: 700px; /* Set the container's height if needed */
+            overflow-y: auto; /* Add vertical scroll if content overflows */
+            border: 1px solid #ccc; /* Optional: Add a border for visual separation */
+
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 5px;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+/* Portfolio section styles */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artwork {
+    margin: 20px;
+}
+
+.artwork img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/* About section styles */
+.bio {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Blog section styles */
+.blog {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Contact section styles */
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+/* Hide the additional content by default */
+.additional-content {
+    display: none;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
